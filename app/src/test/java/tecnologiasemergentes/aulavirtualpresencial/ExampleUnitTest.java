@@ -1,4 +1,4 @@
-package yourfavoriteanimestinks.aulavirtualpresencial;
+package tecnologiasemergentes.aulavirtualpresencial;
 
 import org.junit.Test;
 

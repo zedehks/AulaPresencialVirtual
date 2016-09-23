@@ -1,13 +1,10 @@
-package yourfavoriteanimestinks.aulavirtualpresencial;
+package tecnologiasemergentes.aulavirtualpresencial;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.ContentResolver;
@@ -20,7 +17,6 @@ import android.os.Build.VERSION;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -36,12 +32,9 @@ import android.content.Context;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.server.converter.StringToIntConverter;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.Manifest.permission.READ_CONTACTS;
 
 /**
  * A login screen that offers login via email/password.
@@ -355,7 +348,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://yourfavoriteanimestinks.aulavirtualpresencial/http/host/path")
+                Uri.parse("android-app://tecnologiasemergentes.aulavirtualpresencial/http/host/path")
         );
         AppIndex.AppIndexApi.start(client, viewAction);
     }
@@ -374,7 +367,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://yourfavoriteanimestinks.aulavirtualpresencial/http/host/path")
+                Uri.parse("android-app://tecnologiasemergentes.aulavirtualpresencial/http/host/path")
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();

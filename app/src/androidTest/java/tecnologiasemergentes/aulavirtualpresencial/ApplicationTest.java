@@ -1,4 +1,4 @@
-package yourfavoriteanimestinks.aulavirtualpresencial;
+package tecnologiasemergentes.aulavirtualpresencial;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
